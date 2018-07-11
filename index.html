@@ -11,7 +11,9 @@
         <textarea class="input" id="text" placeholder="Once upon a time..."></textarea>
         <form id="text-options">
             <label>Filename: <input type="text" class="filename" id="text-filename" placeholder="a plain document"/>.csv</label>
-            <input type="button" value="Save"/>
+            <input type="button" id="_1" value="Save(filesaver)"/>
+            <input type="button" id="_2" value="Save(a.download) text/plain"/>
+            <input type="button" id="_3" value="Save(a.download) application/octet-stream"/>
         </form>
     </section>
     <script src="filesaver.js"></script>
